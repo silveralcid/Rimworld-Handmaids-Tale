@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef>
+    <defName>Handmaid_Fertility</defName>
+    <label>handmaid fertility</label>
+    <description>Carriers of this gene have enhanced fertility and reproductive capabilities, making them ideal for bearing children.</description>
+    <iconPath>UI/Icons/Genes/Handmaid</iconPath>
+    <displayCategory>Reproduction</displayCategory>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    
+    <!-- Reproduction-related stats -->
+    <modifiers>
+      <li Class="StatModifier">
+        <stat>Fertility</stat>
+        <value>2.0</value>
+      </li>
+    </modifiers>
+
+    <!-- Gene properties -->
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>handmaid</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>

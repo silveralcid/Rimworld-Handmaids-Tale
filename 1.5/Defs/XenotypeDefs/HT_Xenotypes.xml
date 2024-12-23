@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <XenotypeDef>
+    <defName>Handmaid</defName>
+    <label>handmaid</label>
+    <description>Genetically modified humans designed for enhanced fertility.</description>
+    <iconPath>UI/Icons/Xenotypes/Handmaid</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <!-- Add gene references here -->
+    </genes>
+  </XenotypeDef>
+</Defs>

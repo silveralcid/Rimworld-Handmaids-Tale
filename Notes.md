@@ -6,6 +6,11 @@ We can do traits to customize and etc
 
 Traits + Backstories
 
+Use backstories to help control traits
+Look into how traits are assigned and generated
+
+Add gilead as a faction, with slave traders that sell handmaids, events (escaped handmaids, etc)
+
 Existing/relevant memes:
 Primary Memes
 Male Supremacy

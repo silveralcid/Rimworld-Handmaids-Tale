@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef>
+    <defName>HandmaidFaction</defName>
+    <label>Gilead</label>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Handmaid>0.30</Handmaid>
+      </xenotypeChances>
+    </xenotypeSet>
+    <!-- Other faction properties -->
+  </FactionDef>
+</Defs>
