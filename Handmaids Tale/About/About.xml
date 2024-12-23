@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Handmaid's Tale</name>
+    <author>SilverAlcid</author>
+    <packageId>SilverAlcid.HandmaidsTale</packageId>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>Adds new traits to help create a society inspired by Handmaid's Tale.</description>
+</ModMetaData>
