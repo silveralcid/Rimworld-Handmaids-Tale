@@ -6,6 +6,8 @@ Vanilla Events Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id
 
 Vanilla Traits Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655&searchtext=vanilla+factions
 
+Vanilla Ideology Expanded - Memes and Structures - https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500&searchtext=ideology
+
 Gilead
 Should be unwavering loyalty
 Structure/Symbol
