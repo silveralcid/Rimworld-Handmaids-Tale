@@ -1,9 +1,18 @@
+References:
+
+Vanilla Genetics Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=2801160906&searchtext=framework
+
+Vanilla Events Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=1938420742&searchtext=vanilla+factions
+
+Vanilla Traits Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655&searchtext=vanilla+factions
+
 Gilead
+Should be unwavering loyalty
 Structure/Symbol
 up to 4 memes
 Need to create a system of only one wife, but unlimited handmaids, we need to do fertility adjustments etc.
 We can do traits to customize and etc
-
+rituals
 Traits + Backstories
 
 Use backstories to help control traits
