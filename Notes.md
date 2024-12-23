@@ -4,6 +4,8 @@ up to 4 memes
 Need to create a system of only one wife, but unlimited handmaids, we need to do fertility adjustments etc.
 We can do traits to customize and etc
 
+Traits + Backstories
+
 Existing/relevant memes:
 Primary Memes
 Male Supremacy
