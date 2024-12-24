@@ -23,6 +23,8 @@ scenario
 faction
 Use backstories to help control traits
 Look into how traits are assigned and generated
+Can make PawnKinds, handmaidens
+
 
 Add gilead as a faction, with slave traders that sell handmaids, events (escaped handmaids, etc)
 
