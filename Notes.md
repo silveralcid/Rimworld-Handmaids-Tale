@@ -1,5 +1,7 @@
 References:
 
+See - C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data
+
 Vanilla Genetics Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=2801160906&searchtext=framework
 
 Vanilla Events Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=1938420742&searchtext=vanilla+factions
@@ -17,6 +19,8 @@ We can do traits to customize and etc
 rituals
 Traits + Backstories
 
+scenario
+faction
 Use backstories to help control traits
 Look into how traits are assigned and generated
 
