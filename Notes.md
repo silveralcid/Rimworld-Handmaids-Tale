@@ -1,61 +1,68 @@
-References:
+# RimWorld Mod Development Notes
 
-See - C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data
+## Core References
+- Base game data location: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data`
 
-Vanilla Genetics Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=2801160906&searchtext=framework
+## References
+- Vanilla Genetics Expanded
+- Vanilla Events Expanded
+- Vanilla Traits Expanded
+- Vanilla Ideology Expanded - Memes and Structures
 
-Vanilla Events Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=1938420742&searchtext=vanilla+factions
+## Gilead Ideology Structure
 
-Vanilla Traits Expanded - https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655&searchtext=vanilla+factions
+**Primary Memes**
+- Male Supremacy
+- Supremacist
+- Collectivist
+- Proselytizer
 
-Vanilla Ideology Expanded - Memes and Structures - https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500&searchtext=ideology
+**Supporting Memes**
+- Human Primacy
+- Pain is Virtue
+- Loyalist
 
-Gilead
-Should be unwavering loyalty
-Structure/Symbol
-up to 4 memes
-Need to create a system of only one wife, but unlimited handmaids, we need to do fertility adjustments etc.
-We can do traits to customize and etc
-rituals
-Traits + Backstories
+## Implementation Requirements
 
-scenario
-faction
-Use backstories to help control traits
-Look into how traits are assigned and generated
-Can make PawnKinds, handmaidens
+**Faction Development**
+- Create Gilead as a new faction
+- Implement slave trader system for handmaids
+- Design custom events (escaped handmaids)
 
+**PawnKind Configuration**
+- Create handmaiden PawnKind
+- Configure trait generation system
+- Implement backstory controls
 
-Add gilead as a faction, with slave traders that sell handmaids, events (escaped handmaids, etc)
+**Handmaid Characteristics**
 
-Existing/relevant memes:
-Primary Memes
-Male Supremacy
-Supremacist
-Collectivist
-Proselytizer
-Supporting Memes
-Human Primacy
-Pain is Virtue
-Loyalist
-Structure Recommendation
-The "Christian origin" structure would be most appropriate for this ideology, as it aligns with the religious fundamentalist nature of the society.
-These memes together would create the hierarchical, authoritarian, and religiously fundamentalist system characteristic of that society, enabling:
-Strict gender-based social hierarchy
-Religious authority and forced conversion
-Group conformity and control
-Slavery systems
-Ritualistic practices
-Social dominance mechanics
+| Skill Modifiers | Value |
+|-----------------|-------|
+| Medical Skill   | +5    |
+| Social Skill    | -3    |
+| Fertility       | +10%  |
 
-Effects:
-+5 Medical skill (due to knowledge of reproductive health)
-+10% Fertility chance
--3 Social skill (due to restricted interactions)
--5 mood when wearing anything but red clothing
-+10% mental break threshold (representing inner turmoil)
-Cannot do intellectual work (forbidden in Gilead society)
-Gains mood buff "Sense of Purpose" (+5) when pregnant
-Occasionally experiences flashbacks, causing brief work stoppage
-Conflicts with: Asexual, Gay (as per Gilead's ideology)
-This trait captures key aspects of Handmaids from the novel, including their primary purpose, restricted freedoms, and psychological struggles13. It balances positive and negative effects to reflect the complex nature of their situation in the story8.
+**Special Effects**
+- Red clothing mood requirement (-5 mood if not wearing red)
+- Mental break threshold +10%
+- Intellectual work restriction
+- Pregnancy mood buff: "Sense of Purpose" (+5)
+- Random flashback events
+
+**Trait Conflicts**
+- Asexual
+- Gay
+
+## Development Tasks
+- Implement fertility adjustment system
+- Create single-wife, multiple-handmaid structure
+- Design custom rituals
+- Configure trait and backstory generation
+- Develop PawnKind definitions
+- Create faction-specific events
+
+## Structure Recommendation
+Use "Christian origin" structure template for religious fundamentalist foundation
+
+Citations:
+[1] https://steamcommunity.com/sharedfiles/filedetails/?id=2801160906&searchtex
