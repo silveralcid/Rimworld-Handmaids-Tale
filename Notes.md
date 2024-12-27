@@ -63,6 +63,3 @@
 
 ## Structure Recommendation
 Use "Christian origin" structure template for religious fundamentalist foundation
-
-Citations:
-[1] https://steamcommunity.com/sharedfiles/filedetails/?id=2801160906&searchtex
