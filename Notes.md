@@ -3,7 +3,7 @@
 ## Core References
 - Base game data location: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data`
 
-## References
+## Extra References
 - Vanilla Genetics Expanded
 - Vanilla Events Expanded
 - Vanilla Traits Expanded
